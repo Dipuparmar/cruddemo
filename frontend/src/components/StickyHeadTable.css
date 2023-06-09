@@ -1,0 +1,32 @@
+.arrow-button {
+    /* Transparent background */
+    background-color: transparent;
+  
+    /* Size */
+    height: 12px;
+    width: 12px;
+    padding: 2px;
+    margin-top: 10px;
+    /* margin-right: 5px; */
+  }
+  
+  .arrow-button--r {
+    /* Edges */
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    transform: translateX(-25%) rotate(45deg);
+    color: #000000;
+    padding: 2px;
+    margin: 5px;
+    /* margin-right: 1px; */
+  }
+  
+  .arrow-button--l {
+    /* Edges */
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    transform: translateX(25%) rotate(45deg);
+    color: 808080;
+    padding: 2px;
+    margin: 5px;
+  }
